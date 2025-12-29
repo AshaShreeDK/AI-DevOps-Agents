@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/shan5a6/app1-infra.git'
+                git 'https://github.com/AshaShreeDK/AI-DevOps-Agents.git'
             }
         }
         stage('Terraform Init') {
